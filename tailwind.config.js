@@ -12,7 +12,8 @@ export default {
       },
       colors: {
         myBlue: "#D0E1F9",
-        myBlueBorder: "#7DA4EF"
+        myBlueBorder: "#7DA4EF",
+        myYellow: "#FFB703"
       }
     },
   },

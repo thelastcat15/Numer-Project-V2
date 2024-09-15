@@ -10,9 +10,20 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh !important;
-  background: linear-gradient(to bottom, #283655, #5877BB); height: 100vh;
+  background: linear-gradient(180deg, #1F2941 66.6%, #5877BB 100%);
 }
 
 .katex-display {
   margin: .7em 0;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+.masked-overflow {
+  mask-image: linear-gradient(to bottom, transparent, #1E1F26 20%, black 80%, transparent);
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  mask-position: 0 0;
 }
